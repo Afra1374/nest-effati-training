@@ -8,7 +8,6 @@ export class sendSms {
     request:Request;
     
     sendOtpCode () {
-        console.log('@@@@@@@@@@@@@@@@@',this.request.url);
-        console.log("OTP CODE SENT!!!!!!!!!!!!!!!!!!!@@@@@ز@@@@");
+        console.log("OTP CODE SENT ! and url is =>", this.request.url)
     }
 }
